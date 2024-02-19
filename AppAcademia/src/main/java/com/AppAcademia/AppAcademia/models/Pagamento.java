@@ -12,15 +12,14 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class pagamento {
+public class Pagamento {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long idPagamento;
 
     @OneToOne
-    @JoinColumn(name = "idPlanoAluno", referencedColumnName = "idPlano")
-    private plano planos;
+    private Plano plano;
 
     @NotEmpty
     private float pagamentoValor;
@@ -28,8 +27,7 @@ public class pagamento {
     @NotEmpty
     private float pagamentoValorDesconto;
 
-    @OneToOne
-    @JoinColumn(name = "idAlunoPagamento", referencedColumnName = "idAluno")
-    private aluno aluno;
-    
+    @ManyToOne
+    private Aluno aluno;
+
 }

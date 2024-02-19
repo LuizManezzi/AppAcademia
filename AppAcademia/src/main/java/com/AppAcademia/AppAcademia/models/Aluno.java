@@ -13,7 +13,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 @NotEmpty
-public class aluno {
+public class Aluno {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -41,16 +41,11 @@ public class aluno {
     private Float alunoAltura;
 
     @ManyToOne
-    private modalidade alunoModalidade;
-
-    @ManyToOne
     @JoinColumn(name = "idAlunoPlano", referencedColumnName = "idPlano")
-    private plano alunoPlano;
+    private Plano alunoPlano;
 
     @ManyToOne
     @JoinColumn(name = "idStatusAluno", referencedColumnName = "idStatus")
-    private status statusAluno;
-
-
+    private Status statusAluno;
 
 }

@@ -7,14 +7,12 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.util.List;
-
 @Entity
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class plano {
+public class Plano {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -28,13 +26,5 @@ public class plano {
 
     @NotEmpty
     private int quantidadeMeses;
-
-    @NotEmpty
-    @OneToMany(mappedBy = "plano", cascade = CascadeType.REMOVE)
-    private List<aluno> alunos;
-
-    @NotEmpty
-    @OneToMany(mappedBy = "plano", cascade = CascadeType.REMOVE)
-    private List<pagamento> pagamentos;
 
 }
