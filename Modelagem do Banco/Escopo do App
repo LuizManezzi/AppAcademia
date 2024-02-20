@@ -1,0 +1,96 @@
+## Interface para Academia - Desenho
+
+**Baseado na estrutura do banco de dados que você forneceu, aqui está um desenho da interface do aplicativo para academia:**
+
+**Tela inicial:**
+
+* **Seção superior:**
+    * Logotipo da academia.
+    * Barra de pesquisa para encontrar alunos, professores, modalidades e planos.
+    * Ícone de sino para notificações.
+    * Foto do perfil do usuário e menu suspenso com opções de perfil, configurações e logout.
+* **Seção central:**
+    * Carrossel de imagens com fotos da academia, aulas e eventos.
+    * Atalhos para as principais funcionalidades:
+        * **Alunos:** Visualizar lista de alunos, adicionar novo aluno, acessar perfil de um aluno.
+        * **Professores:** Visualizar lista de professores, adicionar novo professor, acessar perfil de um professor.
+        * **Modalidades:** Visualizar lista de modalidades, adicionar nova modalidade, acessar detalhes de uma modalidade.
+        * **Aulas:** Visualizar lista de aulas, agendar uma aula, cancelar uma aula.
+        * **Pagamentos:** Visualizar histórico de pagamentos, realizar pagamento, gerenciar planos.
+* **Seção inferior:**
+    * Links para redes sociais da academia.
+    * Endereço e telefone da academia.
+
+**Tela de perfil do aluno:**
+
+* **Seção superior:**
+    * Foto do aluno.
+    * Nome completo do aluno.
+    * Status do aluno (ativo, inativo).
+    * Botão para editar perfil.
+* **Seção central:**
+    * **Informações pessoais:** Data de nascimento, sexo, telefone, endereço.
+    * **Avaliações físicas:**
+        * Gráfico de progresso físico (peso, massa muscular, gordura corporal) ao longo do tempo.
+        * Tabela com histórico de avaliações físicas (data, medidas).
+    * **Histórico de treino:**
+        * Lista de treinos realizados, com data, hora, modalidade e duração.
+        * Detalhes de cada treino, com lista de exercícios, séries, repetições e carga.
+    * **Planos de treino:**
+        * Lista de planos de treino ativos e expirados.
+        * Detalhes de cada plano de treino, com lista de exercícios, séries, repetições e carga.
+    * **Agendamento de aulas:**
+        * Lista de aulas agendadas e frequentadas.
+        * Detalhes de cada aula, com data, hora, modalidade, professor e local.
+
+**Tela de perfil do professor:**
+
+* **Seção superior:**
+    * Foto do professor.
+    * Nome completo do professor.
+    * Especialidades do professor.
+    * Botão para editar perfil.
+* **Seção central:**
+    * **Informações pessoais:** Data de nascimento, sexo, telefone, endereço.
+    * **Alunos:**
+        * Lista de alunos sob responsabilidade do professor.
+        * Detalhes de cada aluno, com foto, nome, status e histórico de treino.
+    * **Planos de treino:**
+        * Lista de planos de treino criados pelo professor.
+        * Detalhes de cada plano de treino, com lista de exercícios, séries, repetições e carga.
+    * **Acompanhamento de alunos:**
+        * Gráficos de progresso dos alunos (peso, massa muscular, gordura corporal) ao longo do tempo.
+        * Tabela com histórico de avaliações físicas dos alunos.
+
+**Tela de modalidades:**
+
+* **Seção superior:**
+    * Foto da modalidade.
+    * Nome da modalidade.
+    * Descrição breve da modalidade.
+* **Seção central:**
+    * **Informações da modalidade:**
+        * Duração média da aula.
+        * Intensidade da aula.
+        * Público-alvo da aula.
+        * Benefícios da aula.
+    * **Horários e turmas:**
+        * Tabela com dias, horários e vagas disponíveis para cada turma.
+        * Detalhes de cada turma, com professor e local.
+    * **Agendamento de aulas:**
+        * Seleção da modalidade, turma e data da aula.
+        * Confirmação do agendamento da aula.
+
+**Tela de pagamentos:**
+
+* **Seção superior:**
+    * Foto da forma de pagamento.
+    * Valor do pagamento.
+    * Data do pagamento.
+* **Seção central:**
+    * **Histórico de pagamentos:**
+        * Lista de pagamentos realizados, com data, valor, forma de pagamento e status.
+        * Detalhes de cada pagamento, com comprovante.
+    * **Gerenciar planos:**
+        * Lista de planos de pagamento disponíveis.
+        * Detalhes de cada plano de pagamento, com valor,
